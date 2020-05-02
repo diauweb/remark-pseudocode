@@ -1,0 +1,26 @@
+{
+  "name": "remark-pseudocode",
+  "version": "1.0.0",
+  "description": "LISP-Like Syntax Pseudocode Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diauweb/remark-pseudocode.git"
+  },
+  "keywords": [
+    "remark",
+    "plugin",
+    "markdown",
+    "syntax",
+    "parse"
+  ],
+  "author": "Xiaodai Dai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diauweb/remark-pseudocode/issues"
+  },
+  "homepage": "https://github.com/diauweb/remark-pseudocode#readme"
+}

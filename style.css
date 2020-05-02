@@ -1,0 +1,54 @@
+@font-face {
+  font-family: KaTeX_Main;
+  src: url(fonts/KaTeX_Main-Bold.woff2) format("woff2"),
+    url(fonts/KaTeX_Main-Bold.woff) format("woff"),
+    url(fonts/KaTeX_Main-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: KaTeX_Main;
+  src: url(fonts/KaTeX_Main-BoldItalic.woff2) format("woff2"),
+    url(fonts/KaTeX_Main-BoldItalic.woff) format("woff"),
+    url(fonts/KaTeX_Main-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: KaTeX_Main;
+  src: url(fonts/KaTeX_Main-Italic.woff2) format("woff2"),
+    url(fonts/KaTeX_Main-Italic.woff) format("woff"),
+    url(fonts/KaTeX_Main-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: KaTeX_Main;
+  src: url(fonts/KaTeX_Main-Regular.woff2) format("woff2"),
+    url(fonts/KaTeX_Main-Regular.woff) format("woff"),
+    url(fonts/KaTeX_Main-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pseudo {
+  font-family: KaTeX_Main, "Cascadia Code", "Consolas", monospace;
+  background-color: #f5f5f5;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pseudo-text {
+  flex: 7;
+}
+
+.pseudo .controls {
+  flex: 3;
+}
+
+.pseudo .controls textarea {
+  height: 100%;
+  width: 100%;
+}

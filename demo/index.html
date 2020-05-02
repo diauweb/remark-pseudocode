@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+        <script data-main="./script">R=function(e,n,v1){function t(e,o,u,a){if(e.g)return o(e.e,e);var c=e.g=e.l,f=new XMLHttpRequest;f.onload=function(i,l){function s(){l--||o(n,e)}200==f.status||e.t?(i=[],(e.t=e.t||f.response).replace(/(?:^|[^\w\$_.])require\s*\(\s*["']([^"']*)["']\s*\)/g,function(e,n){i.push(n)}),l=i.length,i.map(function(o){t(r(e.l,o),s,"."!=o[0]?c+"/../":n,o)}),s()):u?t(e.n=r(u+="../",a),o,u,a):(e.e=f,o(f,e))},e.t?f.onload():(f.open("GET",c,!0),f.send())}function r(e,n,t){if(e.e)throw e.e;return n?(f.href=e,i.href="."!=n[0]?"./node_modules/"+n:n,t=i.href+".js",f.href="",u[t]=u[t]||{l:t}):e.n?r(e.n):(e[c]||(e.f||a("(function(require,"+c+",module){"+e.t+"\n})//# sourceURL="+e.l))(function(n){return r(r(e.l,n))},e[c]={},e),e[c])}function o(e,n){t(e.call?{l:"",t:""+e,f:e}:r("",e),function(t,o){try{e=r(o)}catch(u){t=u}n&&n(t,e)})}var u={},a=eval,c="createElement",f=e[c]("base"),i=e[c]("a");return e.head.appendChild(f),c=e.querySelector("script[data-main]"),c&&o(c.dataset.main),c="exports",o}(document);</script>
+    </head>
+    <body>
+        <div class="pseudo">
+            <div class="controls">
+                <textarea id="s">
+(pseudo 
+    (. Input. An array of A consisting of N elements.)
+    (. Output. A will be sorted in nondecresing order.)
+    (. Method.)
+    (. for i (LeftArrow) 1 to n - 1)
+    (.. ith (LeftArrow) i)
+    (. for i (LeftArrow) i + 1 to n)
+    (.. if A [ j ] (Less) A [ ith ])
+    (... ith (LeftArrow) j)
+    (... (m 'f(x) = \int_{-\infty}^\infty
+         \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi' \mathrm{aaa}
+    ))
+    (... swap A(sub i) and A(sub ith))
+)
+                    </textarea>
+                <p></p>
+                <button id="g">Generate</button>
+            </div>
+            <div class="pseudo-text">
+            </div>
+        </div>
+    </body>
+</html>
